@@ -17,6 +17,7 @@ public class Leaning {
     public ResponseEntity<?> learnThings(){
         String response=learningJava.learnJava();
         System.out.println("here is printer"+ response);
+        System.out.println("testing");
         return new ResponseEntity<>(response, HttpStatus.OK);
 
 
